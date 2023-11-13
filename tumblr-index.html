@@ -26,7 +26,7 @@
         }
 
         .gradient-effect2{
-            background: linear-gradient(-45deg, #162117, #5e689b, #7c4b9b, #223531);
+            background: linear-gradient(-45deg, #598f5e, #8994cc, #c68ee9, #83cabb);
             background-size: 400% 400%;
             animation: gradient2 15s ease infinite;
         }
@@ -73,6 +73,11 @@
             color: white;
         }
 
+        .aboutbody{
+            color: rgba(var(--bs-primary-text-emphasis));
+        }
+        
+
     </style>
 
 </head>
@@ -104,23 +109,28 @@
             <div id="nav">
                 <ul class="nav justify-content-center ">
                     <li class="nav-item ">
-                      <a class="nav-link active " aria-current="page" href="#">Active</a>
+                      <a class="nav-link active " aria-current="page" href="https://www.tumblr.com/rustonf">Posts</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="https://open.spotify.com/playlist/2qEzwnMgf6TdJwIvehrmOl?si=711f384638954d98">Chill Playlist</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="https://github.com/rustonfelipe">Github</a>
                     </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://open.spotify.com/user/hovyiq0660nql8grupzryl50n">All Spotify Playlists</a>
+                    </li>
+                    
                   </ul>
             </div>
     
-            <div class="spotify container">
+            <div class="spotify container just">
     
-                <div class="container px-4 py-4" id="custom-cards">
+                <div class="container px-4 py-2" id="custom-cards">
                     <h2 class="pb-2 border-bottom">My Music</h2>
     
-                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 h-50">
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-center g-4 py-2 h-50">
                         <div class="col p-2">
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                                 style="background-image: url('unsplash-photo-1.jpg');">
@@ -163,12 +173,12 @@
             <div id="aboutbody">
                 <div>
 
-                    <div class="container m-2">
-                        <div class="p-5 text-center gradient-effect2 rounded p-2">
-                          <h2 id="aboutme" class="text-body-emphasis align-self-center pb-3 ">About Me</h2>
-                          <p class="aboutbody col-lg-11 mx-auto fs-5 text-muted">
+                    <div class="container">
+                        <div class="p-4 p-md-5 p-lg-5 text-center gradient-effect2 rounded col-12">
+                          <h2 id="aboutme" class="text-light align-self-center">About Me</h2>
+                          <p class="aboutbody col-lg-11 mx-auto fs-5 text-light  rounded py-3 border p-3">
 
-                            I enjoy making music, but I have not done that much lately. I've been spending more of my time learing Web Development to get into a career that I enjoy. I try to juggle going to the gym, work, and my coding. It has its challenges but I know it would be worth it in the end.
+                            I enjoy making music, but I have not done that much lately. I've been spending more of my time learing Web Development to get into a career that I enjoy. I try to juggle going to the gym, work, and practicing my coding by doing projects and making my own custom web pages like this one. It has its challenges but I know it would be worth it in the end.
                             This site was made to show my Web Development Skills using HTML, CSS and Bootstrap Framework.
                           </p>
                         </div>
@@ -176,6 +186,8 @@
 
                 </div>
             </div>
+            
+            
 
         </div>
 
