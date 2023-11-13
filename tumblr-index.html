@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>RustonF.</title>
+    <style>
+
+        .gradient-effect{
+            background: linear-gradient(-45deg, #098d14, #040b2e, #300b47, #037d61);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .gradient-effect2{
+            background: linear-gradient(-45deg, #162117, #5e689b, #7c4b9b, #223531);
+            background-size: 400% 400%;
+            animation: gradient2 15s ease infinite;
+        }
+
+        @keyframes gradient2 {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        html{
+            font-size: 14pt;
+            text-align: center;
+            padding:0px;
+            margin:0px;
+        }
+
+        #mainbody{
+            background-color: rgb(15, 18, 33);
+            color: white;
+
+        }
+        
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(-1 * var(--bs-gutter-y));
+            margin-right: calc(-.5 * var(--bs-gutter-x));
+            margin-left: calc(-.5 * var(--bs-gutter-x));
+        }
+        .p-4 {
+            padding: 1.5rem !important;
+        }
+
+        .nav-link{
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <section id="header">
+        <div class="header">
+
+            <div class="bg-dark text-secondary text-center p-2 gradient-effect">
+                <div class="container">
+                  <h1 class="display-5 fw-bold text-white p-4">Welcome to the Abyss</h1>
+                  <div class="col-lg-6 mx-auto">
+                    <p class="fs-5">Just a blog of my Journey</p>
+                    <h4 style="font-size: 12pt;">made by Ruston F.</h4>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pb-2 pt-2">
+                      <a href="https://www.tumblr.com/dashboard" class="btn btn-outline-secondary btn-lg px-4 me-sm-3 fw-bold">Home</a>
+                      <a href="#aboutme" class="btn btn-outline-light btn-lg px-4">About Me</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <section id="mainbody">
+    
+        <div class="container pt-2 pb-2">
+            <div id="nav">
+                <ul class="nav justify-content-center ">
+                    <li class="nav-item ">
+                      <a class="nav-link active " aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                  </ul>
+            </div>
+    
+            <div class="spotify container">
+    
+                <div class="container px-4 py-4" id="custom-cards">
+                    <h2 class="pb-2 border-bottom">My Music</h2>
+    
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 h-50">
+                        <div class="col p-2">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('unsplash-photo-1.jpg');">
+                                <div class="d-flex flex-column h-100 pb-3 text-white text-shadow-1">
+                                    <iframe style="border-radius:12px"
+                                        src="https://open.spotify.com/embed/playlist/3P6gw8y09Kev7AWzbTHXso?utm_source=generator&theme=0"
+                                        width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                        loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col p-2">
+                            <div class="pb-2 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('unsplash-photo-2.jpg');">
+                                <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/0ehXE3tIHnT7eTU7krl2M4?utm_source=generator&theme=0"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+    
+                        <div class="col p-2">
+                            <div class="pb-2 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('unsplash-photo-3.jpg');">
+                                <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/07GN4UxWtFZm0WzZuF01yE?utm_source=generator&theme=0"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            
+
+            <div id="aboutbody">
+                <div>
+
+                    <div class="container m-2">
+                        <div class="p-5 text-center gradient-effect2 rounded p-2">
+                          <h2 id="aboutme" class="text-body-emphasis align-self-center pb-3 ">About Me</h2>
+                          <p class="aboutbody col-lg-11 mx-auto fs-5 text-muted">
+
+                            I enjoy making music, but I have not done that much lately. I've been spending more of my time learing Web Development to get into a career that I enjoy. I try to juggle going to the gym, work, and my coding. It has its challenges but I know it would be worth it in the end.
+                            This site was made to show my Web Development Skills using HTML, CSS and Bootstrap Framework.
+                          </p>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="footer">
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
