@@ -77,7 +77,17 @@
         .aboutbody{
             color: rgba(var(--bs-primary-text-emphasis));
         }
-        
+
+        div#aboutbox{
+            box-shadow: 15pt 10pt 30pt 5pt #9336B4 ;
+        }
+
+        #spotifybox{
+            box-shadow: -5pt 10pt 10pt 5pt #82CD47;
+        }
+        #welcome{
+            box-shadow:  15pt 15pt 50pt #85f7ff5b;
+        }
     </style>
 
 </head>
@@ -86,9 +96,9 @@
     <section id="header">
         <div class="header">
 
-            <div class="bg-dark text-secondary text-center p-2 gradient-effect">
+            <div class="bg-dark text-secondary text-center p-2 gradient-effect py-5">
                 <div class="container border rounded border-info-subtle">
-                  <h1 class="display-5 fw-bold text-white p-2 m-2 border border-dark-subtle rounded-5" id="welcome">Welcome to the Abyss</h1>
+                  <h1 class="display-5 fw-bold text-white p-2 m-2 border border-dark-subtle rounded-5 my-4" id="welcome">Welcome to the Abyss</h1>
                   <div class="col-lg-6 mx-auto fixed">
                     <p class="fs-5">Just a blog of my Journey</p>
                     <h4 style="font-size: 12pt;">made by Ruston F.</h4>
@@ -108,11 +118,11 @@
         </div>
     </section>
 
-    <section id="mainbody" class="pb-1">
+    <section id="mainbody" class="pb-1 py-2">
     
         <div class="container pt-2 pb-5">
             <div id="nav" class="container">
-                <ul class="nav justify-content-center">
+                <ul class="nav justify-content-center pb-2">
                     <li class="nav-item ">
                       <a class="nav-link active " aria-current="page" href="https://www.tumblr.com/rustonf">Tumblr Posts</a>
                     </li>
@@ -131,12 +141,12 @@
                   </ul>
             </div>
     
-            <div class="spotify container just">
+            <div class="spotify container">
     
                 <div class="container px-4 py-2" id="custom-cards">
-                    <h2 class="pb-2 border-bottom">My Music</h2>
+                    <h2 class="pb-3 mb-5 border-bottom">My Music</h2>
     
-                    <div class="row row-cols-1 row-cols-lg-3 align-items-center g-4 py-1 px-1 h-50 border border-success-subtle rounded my-3">
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-center g-4 py-1 px-1 h-50 border border-success-subtle rounded my-3" id="spotifybox">
                         <div class="col p-2">
                             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                                 style="background-image: url('unsplash-photo-1.jpg');">
@@ -177,10 +187,10 @@
             
 
             <div id="aboutbody">
-                <div>
+                <div class="py-5">
 
-                    <div class="container">
-                        <div class="p-4 p-md-5 p-lg-5 text-center gradient-effect2 rounded col-12">
+                    <div class="container py-3">
+                        <div class="p-4 p-md-5 p-lg-5 text-center gradient-effect2 rounded col-12" id="aboutbox">
                           <h2 id="aboutme" class="text-light align-self-center">About Me</h2>
                           <p class="aboutbody col-lg-11 mx-auto fs-5 text-light  rounded py-3 border p-3">
 
@@ -195,7 +205,7 @@
 
         </div>
 
-        <div class="bottom fixed-bottom mt-5 gradient-effect">
+        <div class="bottom fixed-bottom mt-5 gradient-effect pt-2">
             <div class="row align-content-end justify-content-center">
             <a href="./public/Contact.html" class=" returnheader btn btn-outline-secondary p-1 m-2 border-1 col-6 w-25" style="font-size: 10pt;">Contact</a>
             <a href="#welcome" class="returnheader btn btn-outline-secondary p-1 m-2 border-1 col-6 w-25" style="font-size: 10pt;">Back to Top</a>
