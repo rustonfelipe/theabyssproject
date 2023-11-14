@@ -13,4 +13,4 @@ as a webhost.
 
 Tumblr: https://www.rustonf.tumblr.com/
 
-Github: https://www.rustonfelipe.github.io/theabyssproject/
+Github: https://rustonfelipe.github.io/theabyssproject/
