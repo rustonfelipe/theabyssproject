@@ -48,6 +48,7 @@
             text-align: center;
             padding:0px;
             margin:0px;
+            min-width: min-content;
         }
 
         #mainbody{
@@ -87,8 +88,8 @@
 
             <div class="bg-dark text-secondary text-center p-2 gradient-effect">
                 <div class="container border rounded border-info-subtle">
-                  <h1 class="display-5 fw-bold text-white p-2 m-2 border border-dark-subtle rounded-5">Welcome to the Abyss</h1>
-                  <div class="col-lg-6 mx-auto">
+                  <h1 class="display-5 fw-bold text-white p-2 m-2 border border-dark-subtle rounded-5" id="welcome">Welcome to the Abyss</h1>
+                  <div class="col-lg-6 mx-auto fixed">
                     <p class="fs-5">Just a blog of my Journey</p>
                     <h4 style="font-size: 12pt;">made by Ruston F.</h4>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pb-2 pt-2">
@@ -107,11 +108,11 @@
         </div>
     </section>
 
-    <section id="mainbody">
+    <section id="mainbody" class="pb-1">
     
-        <div class="container pt-2 pb-2">
-            <div id="nav">
-                <ul class="nav justify-content-center ">
+        <div class="container pt-2 pb-5">
+            <div id="nav" class="container">
+                <ul class="nav justify-content-center">
                     <li class="nav-item ">
                       <a class="nav-link active " aria-current="page" href="https://www.tumblr.com/rustonf">Tumblr Posts</a>
                     </li>
@@ -191,14 +192,18 @@
 
                 </div>
             </div>
-            
-            
 
         </div>
 
+        <div class="bottom fixed-bottom mt-5 gradient-effect">
+            <div class="row align-content-end justify-content-center">
+            <a href="./public/Contact.html" class=" returnheader btn btn-outline-secondary p-1 m-2 border-1 col-6 w-25" style="font-size: 10pt;">Contact</a>
+            <a href="#welcome" class="returnheader btn btn-outline-secondary p-1 m-2 border-1 col-6 w-25" style="font-size: 10pt;">Back to Top</a>
+            </div>
+        </div>
     </section>
 
-    <section id="footer">
+    <section id="footer" class="container">
 
     </section>
 
